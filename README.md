@@ -48,7 +48,7 @@ oceanguard/
 ## Reproducing This Project
 
 ```bash
-git clone https://github.com/yourusername/oceanguard.git
+git clone https://indushrikrishnan-source.github.io/AAZHI-RPM/
 cd oceanguard
 pip install -r requirements.txt
 
