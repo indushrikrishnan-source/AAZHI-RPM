@@ -524,9 +524,9 @@ let DATA = null;
 
 async function loadData() {
   const [grid, samples, metricsFile] = await Promise.all([
-    fetch('data/grid.json').then(r => r.json()),
-    fetch('data/samples.json').then(r => r.json()),
-    fetch('data/metrics.json').then(r => r.json()),
+    fetch('datas/grid.json').then(r => r.json()),
+    fetch('datas/samples.json').then(r => r.json()),
+    fetch('datas/metrics.json').then(r => r.json()),
   ]);
   DATA = { grid, samples, metrics: metricsFile.metrics, threshold: metricsFile.threshold };
   initDashboard();
