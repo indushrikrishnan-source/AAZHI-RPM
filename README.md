@@ -6,7 +6,7 @@ NOAA's real Marine Microplastics Database. Built to help prioritize where
 limited ocean monitoring and cleanup resources go, especially in regions
 with almost no direct measurement (e.g. the entire Indian Ocean coastline).
 
-**[Live Dashboard →](https://yourusername.github.io/oceanguard/)** *(update after enabling GitHub Pages)*
+**[Live Dashboard →](https://indushrikrishnan-source.github.io/AAZHI-RPM/)** *(update after enabling GitHub Pages)*
 
 ## Key Results
 
@@ -48,7 +48,7 @@ oceanguard/
 ## Reproducing This Project
 
 ```bash
-git clone https://indushrikrishnan-source.github.io/AAZHI-RPM/
+git clone https://indushrikrishnan-source.github.io/AAZHI-RPM.git
 cd oceanguard
 pip install -r requirements.txt
 
